@@ -79,9 +79,16 @@ section{
   padding-top: 6.5rem;
 }
 .home .content h3{
-  color: #333;
+  font-size: 4vw;
+  margin: 0;
+  background-image: url(image/main.jpg);
+  background-size: auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  /* color: #333;
   font-size: 50px;
-  transition: 0.5s;
+  transition: 0.5s; */
   
 }
 .home .content h3:hover{
@@ -232,7 +239,7 @@ section{
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: #ece9e9;
 }
 .progress span{
   font-size: 15px;
@@ -250,37 +257,37 @@ section{
   width: 400px;
   height: 10px;
   transition: 0.9s;
-  background-color: #18d26e;
+  background-color: #2aa6d7;
 }
 .skills .progress-bar2 {
   width: 350px;
   height: 10px;
   transition: 0.9s;
-  background-color: #18d26e;
+  background-color: #2aa6d7;
 }
 .skills .progress-bar3 {
   width: 200px;
   height: 10px;
   transition: 0.9s;
-  background-color: #18d26e;
+  background-color: #2aa6d7;
 }
 .skills .progress-bar4 {
   width: 320px;
   height: 10px;
   transition: 0.9s;
-  background-color: #18d26e;
+  background-color: #2aa6d7;
 }
 .skills .progress-bar5 {
   width: 350px;
   height: 10px;
   transition: 0.9s;
-  background-color: #18d26e;
+  background-color: #2aa6d7;
 }
 .skills .progress-bar6 {
   width: 320px;
   height: 10px;
   transition: 0.9s;
-  background-color: #18d26e;
+  background-color: #2aa6d7;
 }
 
 /*--------------------------------------------------------------
@@ -292,6 +299,7 @@ section{
   padding: 20px;
   background: rgba(255, 255, 255, 0.08);
   transition: ease-in-out 0.3s;
+  
 
 }
 
@@ -311,7 +319,10 @@ section{
 }
 
 .interests .icon-box:hover {
-  background: #2ecc71;
+  /* background: #607921; */
+   background: #ff7b29;
+    /* border-radius: 30%; */
+    transform: rotateY(180deg);
 }
 
 
@@ -480,7 +491,7 @@ section{
 
 /*------------------ Social media section ---------------*/
 #social-media{
-  background: #d9e49e;
+  background: #e9dfa7;;
   padding: 100px 0;
 }
 #social-media p{
@@ -503,19 +514,19 @@ p{
 }
 
 #footer{
-  background-image: linear-gradient(to right,#0052b0, #b340b3);
-  color: #fff;
+  background-color: #e9dfa7;;
+  color: #484747;
 }
-.footer-img{
+/* .footer-img{
   width: 100%;
-}
-.footer-box{
+} */
+/* .footer-box{
   padding-bottom: 30px;
-}
-.footer-box img{
+} */
+/* .footer-box img{
   width: 120px;
   margin-bottom: 20px;
-}
+} */
 .footer1 img{
   width: 40px;
 }
@@ -541,7 +552,7 @@ p{
   border:none;
   text-align: center;
   border-radius: 10px;
-  margin-top: 30px;
+  margin-top: 20px;
   background-image: linear-gradient(to right,#0052b0, #696969);
   transition: 0.5s;
 }
@@ -549,7 +560,7 @@ p{
 transform: translateY(-10px);
 }
 hr{
-  background: #fff;
+  background: #be4545;
 }
 .copywrite{
   margin-bottom: 0;
