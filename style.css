@@ -114,7 +114,7 @@ section{
 .home .image img{
   width: 400px;
   padding:2rem;
-  box-shadow: 10px 10px 10px 5px #c65252;
+  box-shadow: 10px 10px 20px 10px #c65252;
 }
 
 .home .content .btn{
@@ -528,7 +528,11 @@ p{
   margin-bottom: 20px;
 } */
 .footer1 img{
-  width: 40px;
+  width: 50px;
+  transition: 0.5s;
+}
+.footer1 a:hover img{
+  transform: translateY(-10px);
 }
 .footer-box .fas{
   margin-right: 8px;
